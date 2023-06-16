@@ -1,11 +1,11 @@
-About r-dagitty
-===============
+About r-dagitty-feedstock
+=========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dagitty-feedstock/blob/main/LICENSE.txt)
 
 Home: http://www.dagitty.net, https://github.com/jtextor/dagitty
 
 Package license: GPL-2.0-only
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-dagitty-feedstock/blob/main/LICENSE.txt)
 
 Summary: A port of the web-based software 'DAGitty', available at <http://dagitty.net>, for analyzing structural causal models (also known as directed acyclic graphs or DAGs). This package computes covariate adjustment sets for estimating causal effects, enumerates instrumental variables, derives testable implications (d-separation and vanishing tetrads), generates equivalent models, and includes a simple facility for data simulation.
 
