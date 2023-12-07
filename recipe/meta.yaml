@@ -1,4 +1,4 @@
-{% set version = "0.3-1" %}
+{% set version = "0.3-4" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/dagitty_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/dagitty/dagitty_{{ version }}.tar.gz
-  sha256: 7d44b5d259ec3fef776a7e3fcb21d1c379f930d6ae9ae5fbfff54494ad78e8a8
+  sha256: 796f1424fc75800f1818f427809730f43eb798614ac570af1c301e951b2d3c82
 
 build:
   merge_build_host: true  # [win]
-  number: 2
+  number: 0
   noarch: generic
   rpaths:
     - lib/R/lib/
